@@ -1,0 +1,59 @@
+@media all and (max-width: 780px) {
+  body {
+    margin-right: 0;
+  }
+  nav {
+    height: 50px;
+  }
+
+  nav .main_pages {
+    display: none;
+  }
+
+  span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  form {
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 10%;
+    width: auto;
+    list-style-type: none;
+  }
+  input[type="email"] {
+    width: 300px;e
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .expo1,
+  .oeuvres2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .réseaux {
+    width: auto;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+}
+span .burger { 
+    width: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto; 
+    font-size: 40px; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer; }
+
